@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - API_TOKEN=YOUR-TOKEN-HERE # Optional if env file is used
+      - SOCKET_TOKEN=YOUR-TOKEN-HERE # Optional if env file is used
+      - EVENTS=reboot,screenOff,screenOn # Events to listen to and Optional if env file is used
+    volumes:
+      - .env:/usr/src/app/.env

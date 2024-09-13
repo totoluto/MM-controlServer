@@ -1,0 +1,33 @@
+{
+  "name": "mm-controlserver",
+  "version": "1.0.0",
+  "description": "A configureable socket server which emit events to listeners when API is called. The project was created for the use with Magic Mirror but can actually be used for anything.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totoluto/MM-controlServer.git"
+  },
+  "keywords": [
+    "server",
+    "socket",
+    "API",
+    "magic-mirror",
+    "events",
+    "controller"
+  ],
+  "author": "totoluto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/totoluto/MM-controlServer/issues"
+  },
+  "homepage": "https://github.com/totoluto/MM-controlServer#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "socket.io": "^4.7.5"
+  }
+}

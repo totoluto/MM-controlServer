@@ -1,0 +1,8 @@
+./dockerfile
+./env
+./env.sample
+.gitignore
+config/
+dist/
+README.md
+node_modules/
